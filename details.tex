@@ -1,0 +1,89 @@
+
+\documentclass[12pt,a4paper]{report}
+
+% Packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{braket}
+\usepackage{booktabs}
+\usepackage{array}
+
+% Document information
+\title{MZI (integrated optics project)}
+\author{Adreet Sarkar\\
+Naitik Gupta\\
+Pratiksha Barman\\
+Sayanti Pandit}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\chapter{Introduction}
+
+
+
+\section{Material Selection}
+
+The material parameters used in the simulation
+are summarized in Table~\ref{tab:parameters}.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Material and optical parameters}
+    \label{tab:parameters}
+
+    \begin{tabular}{lll}
+        \toprule
+        \textbf{Parameter} &
+        \textbf{Material} &
+        \textbf{Refractive Index} \\
+        \midrule
+
+        $n_1$ (core) &
+        Lithium niobate (LiNbO$_3$) &
+        2.138 \\
+
+        $n_2$ (cladding) &
+        Silicon dioxide (SiO$_2$) &
+        1.444 \\
+
+        Operating wavelength &
+        1550 nm &
+        --- \\
+
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{Checking single-mode condition}
+
+If waveguide width
+\[ w=0.45\,\mu\mathrm m
+\]
+
+For an ideal symmetric slab waveguide, define
+\[
+V=\frac{2\pi}{\lambda}w\sqrt{n_1^2-n_2^2}.
+\]
+
+For this definition, the first higher-order mode reaches cutoff at \(V=\pi\).
+
+Therefore, the ideal single-mode criterion is:
+\[
+\boxed{V<\pi}
+\]
+
+Substituting:
+\[
+V=\frac{2\pi}{1.55}(0.45)\sqrt{2.138^2-1.444^2}
+\]
+
+\[
+\boxed{V\approx2.876<3.142}
+\]
+
+ selected values satisfy this criterion, although they are relatively close to the first higher-order mode cutoff.
+
+\end{document}
