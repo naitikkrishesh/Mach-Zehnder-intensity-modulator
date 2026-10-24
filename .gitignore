@@ -1,5 +1,5 @@
 
-# LaTeX compilation files
+# LaTeX temporary files
 *.aux
 *.log
 *.fls
@@ -9,3 +9,12 @@
 *.out
 *.bbl
 *.blg
+*.nav
+*.snm
+
+# Ignore everything inside build folders
+build/*
+
+# But allow PDF files inside build folders
+!build/
+!build/*.pdf
