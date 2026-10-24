@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1792819841.4225 "/Users/naitikkrishesh/Desktop/Projects/integratedOptics/mzi/details.tex" "build/details.pdf" "details" 1792819841.72059 0
-  "/Users/naitikkrishesh/Desktop/Projects/integratedOptics/mzi/details.tex" 1792819841.3251 1587 00423de88913514e146607dd3941d182 ""
+["pdflatex"] 1792820325.98374 "/Users/naitikkrishesh/Desktop/Projects/integratedOptics/mzi/details.tex" "build/details.pdf" "details" 1792820326.24256 0
+  "/Users/naitikkrishesh/Desktop/Projects/integratedOptics/mzi/details.tex" 1792820325.88969 1587 00423de88913514e146607dd3941d182 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -47,8 +47,8 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1792781238 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1792781178 3636776 16b72ab3528d9c51da7f338356b1203a ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "build/details.aux" 1792819841.69173 622 4d218a5f82b01a87a079b6af0b6bb19a "pdflatex"
-  "details.tex" 1792819841.3251 1587 00423de88913514e146607dd3941d182 ""
+  "build/details.aux" 1792820326.22025 622 4d218a5f82b01a87a079b6af0b6bb19a "pdflatex"
+  "details.tex" 1792820325.88969 1587 00423de88913514e146607dd3941d182 ""
   (generated)
   "build/details.aux"
   "build/details.log"
